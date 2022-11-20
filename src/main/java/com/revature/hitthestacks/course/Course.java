@@ -29,11 +29,9 @@ public class Course {
     @Column
     private int units;
 
-    @ManyToOne
-    @Column(name = "faculty", nullable = false)
-    private User faculty;
-
-    @ManyToMany
-    @Column(name = "students")
-    private List<User> students;
+//    @ManyToOne
+//    private User faculty;
+//
+//    @ManyToMany
+//    private List<User> students;
 }
